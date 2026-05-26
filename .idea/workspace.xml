@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="de615aee-a7ef-44fc-9d8b-ec7d5efca142" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/app/(auth)/_layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(auth)/sign-in.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(auth)/sign-out.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(tabs)/insights.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(tabs)/settings.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(tabs)/subscription.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(tabs)/subscriptions/[id].tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/onboarding.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/global.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nativewind-env.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/postcss.config.mjs" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="45" />
+    <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0000000000094391" />
+      <entry key="S5" value="1.0000389384347796" />
+      <entry key="S10" value="1.0064283052464278" />
+      <entry key="S30" value="1.2494620695511873" />
+      <entry key="S60" value="2.049301704995984" />
+      <entry key="M2" value="6.088666502407282" />
+      <entry key="M5" value="26.353947481047857" />
+      <entry key="M10" value="56.22718171130907" />
+      <entry key="M15" value="77.52469256734165" />
+      <entry key="M30" value="113.21815141558238" />
+      <entry key="H1" value="140.74140871138286" />
+      <entry key="H2" value="158.25087992470674" />
+      <entry key="H4" value="169.31505675820634" />
+      <entry key="D1" value="230.0775139037439" />
+      <entry key="W1" value="280.90085389316874" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="1.857414624221334E-208" />
+      <entry key="S2" value="1.3053104310880089E-52" />
+      <entry key="S5" value="2.564901979304194E-21" />
+      <entry key="S10" value="8.070424610448598E-11" />
+      <entry key="S30" value="8.788233354421701E-4" />
+      <entry key="S60" value="0.051419175761079655" />
+      <entry key="M2" value="0.4198045473799148" />
+      <entry key="M5" value="2.1516161407135908" />
+      <entry key="M10" value="5.371563846689993" />
+      <entry key="M15" value="8.119497996998149" />
+      <entry key="M30" value="13.301553818408482" />
+      <entry key="H1" value="17.638581330715702" />
+      <entry key="H2" value="20.50750889193929" />
+      <entry key="H4" value="22.18712102205265" />
+      <entry key="D1" value="24.613480308555438" />
+      <entry key="W1" value="25.74747938440633" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="5.306322570928015E-4" />
+      <entry key="MS500" value="0.22128844114488627" />
+      <entry key="S2" value="0.6858666443045659" />
+      <entry key="S5" value="0.86003354171199" />
+      <entry key="S10" value="0.9337471293119731" />
+      <entry key="S30" value="1.2232598690699177" />
+      <entry key="S60" value="2.0767957878101497" />
+      <entry key="M2" value="6.458453971911381" />
+      <entry key="M5" value="28.403207561970635" />
+      <entry key="M10" value="61.48047278715538" />
+      <entry key="M15" value="85.52995910419912" />
+      <entry key="M30" value="126.4300146366439" />
+      <entry key="H1" value="158.32157537974462" />
+      <entry key="H2" value="178.72468492711675" />
+      <entry key="H4" value="191.48401319477355" />
+      <entry key="D1" value="254.6876957721282" />
+      <entry key="W1" value="306.6478471802543" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3E1yyknwQeyAcWgtlUcBW5BFMwl" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "javascript.preferred.runtime.type.id": "node",
+    "junie.onboarding.icon.badge.shown": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.completion.popup",
+    "to.speed.mode.migration.done": "true",
+    "ts.external.directory.path": "C:\\Users\\duong\\OneDrive\\Desktop\\MobileApp2\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\duong\OneDrive\Desktop\MobileApp2\app\(tabs)" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-WS-261.24374.125" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="de615aee-a7ef-44fc-9d8b-ec7d5efca142" name="Changes" comment="" />
+      <created>1779360626694</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1779360626694</updated>
+      <workItem from="1779360627715" duration="8721000" />
+      <workItem from="1779787814739" duration="2892000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
