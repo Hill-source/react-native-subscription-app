@@ -5,17 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de615aee-a7ef-44fc-9d8b-ec7d5efca142" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/(auth)/_layout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/(auth)/sign-in.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/(auth)/sign-out.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/(tabs)/insights.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/(tabs)/settings.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/(tabs)/subscription.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/(tabs)/subscriptions/[id].tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/onboarding.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/global.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nativewind-env.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/postcss.config.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(tabs)/_layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/constants/data.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/constants/icon.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/constants/theme.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/type.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(tabs)/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(tabs)/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(tabs)/insights.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(tabs)/insights.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(tabs)/settings.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(tabs)/settings.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(tabs)/subscription.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(tabs)/subscription.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(tabs)/subscriptions/[id].tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/subscriptions/[id].tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/_layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/_layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/android-icon-background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/android-icon-foreground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/android-icon-monochrome.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/partial-react-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/react-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/react-logo@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/react-logo@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/splash-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,69 +37,73 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="45" />
+    <option name="cachedIndexableFilesCount" value="92" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0000000000094391" />
-      <entry key="S5" value="1.0000389384347796" />
-      <entry key="S10" value="1.0064283052464278" />
-      <entry key="S30" value="1.2494620695511873" />
-      <entry key="S60" value="2.049301704995984" />
-      <entry key="M2" value="6.088666502407282" />
-      <entry key="M5" value="26.353947481047857" />
-      <entry key="M10" value="56.22718171130907" />
-      <entry key="M15" value="77.52469256734165" />
-      <entry key="M30" value="113.21815141558238" />
-      <entry key="H1" value="140.74140871138286" />
-      <entry key="H2" value="158.25087992470674" />
-      <entry key="H4" value="169.31505675820634" />
-      <entry key="D1" value="230.0775139037439" />
-      <entry key="W1" value="280.90085389316874" />
+      <entry key="MS100" value="1.7612413164527845" />
+      <entry key="MS500" value="4.0328388313873855" />
+      <entry key="S2" value="8.85101968101094" />
+      <entry key="S5" value="15.950889187755225" />
+      <entry key="S10" value="22.01766350782664" />
+      <entry key="S30" value="28.677129175532" />
+      <entry key="S60" value="31.252963953890408" />
+      <entry key="M2" value="33.86521607733504" />
+      <entry key="M5" value="39.93799334505412" />
+      <entry key="M10" value="55.386724365769155" />
+      <entry key="M15" value="74.69789436779553" />
+      <entry key="M30" value="120.4750037466978" />
+      <entry key="H1" value="164.55040652351087" />
+      <entry key="H2" value="196.42640483321568" />
+      <entry key="H4" value="231.80192670551227" />
+      <entry key="D1" value="545.5123458320242" />
+      <entry key="W1" value="857.700026339194" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="1.857414624221334E-208" />
-      <entry key="S2" value="1.3053104310880089E-52" />
-      <entry key="S5" value="2.564901979304194E-21" />
-      <entry key="S10" value="8.070424610448598E-11" />
-      <entry key="S30" value="8.788233354421701E-4" />
-      <entry key="S60" value="0.051419175761079655" />
-      <entry key="M2" value="0.4198045473799148" />
-      <entry key="M5" value="2.1516161407135908" />
-      <entry key="M10" value="5.371563846689993" />
-      <entry key="M15" value="8.119497996998149" />
-      <entry key="M30" value="13.301553818408482" />
-      <entry key="H1" value="17.638581330715702" />
-      <entry key="H2" value="20.50750889193929" />
-      <entry key="H4" value="22.18712102205265" />
-      <entry key="D1" value="24.613480308555438" />
-      <entry key="W1" value="25.74747938440633" />
+      <entry key="MS500" value="4.959992807642419E-190" />
+      <entry key="S2" value="4.719220412737125E-48" />
+      <entry key="S5" value="1.1736756775993517E-19" />
+      <entry key="S10" value="3.4258950328335365E-10" />
+      <entry key="S30" value="6.997206390583876E-4" />
+      <entry key="S60" value="0.026452233197707342" />
+      <entry key="M2" value="0.16265192892911384" />
+      <entry key="M5" value="0.5177774988176875" />
+      <entry key="M10" value="1.3436148811886937" />
+      <entry key="M15" value="2.5661055083739064" />
+      <entry key="M30" value="5.848009574443563" />
+      <entry key="H1" value="9.26342703084451" />
+      <entry key="H2" value="11.780436628612161" />
+      <entry key="H4" value="13.753743078578957" />
+      <entry key="D1" value="29.386348960674344" />
+      <entry key="W1" value="47.90615283039998" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="5.306322570928015E-4" />
-      <entry key="MS500" value="0.22128844114488627" />
-      <entry key="S2" value="0.6858666443045659" />
-      <entry key="S5" value="0.86003354171199" />
-      <entry key="S10" value="0.9337471293119731" />
-      <entry key="S30" value="1.2232598690699177" />
-      <entry key="S60" value="2.0767957878101497" />
-      <entry key="M2" value="6.458453971911381" />
-      <entry key="M5" value="28.403207561970635" />
-      <entry key="M10" value="61.48047278715538" />
-      <entry key="M15" value="85.52995910419912" />
-      <entry key="M30" value="126.4300146366439" />
-      <entry key="H1" value="158.32157537974462" />
-      <entry key="H2" value="178.72468492711675" />
-      <entry key="H4" value="191.48401319477355" />
-      <entry key="D1" value="254.6876957721282" />
-      <entry key="W1" value="306.6478471802543" />
+      <entry key="MS100" value="1.672882827736105" />
+      <entry key="MS500" value="3.9890328630674086" />
+      <entry key="S2" value="8.826145600966843" />
+      <entry key="S5" value="15.933230309919383" />
+      <entry key="S10" value="22.005424389267365" />
+      <entry key="S30" value="28.665910946526186" />
+      <entry key="S60" value="31.25859819104701" />
+      <entry key="M2" value="33.99790108473783" />
+      <entry key="M5" value="40.423481292292045" />
+      <entry key="M10" value="56.698565989854316" />
+      <entry key="M15" value="77.23079623988474" />
+      <entry key="M30" value="126.29144576076774" />
+      <entry key="H1" value="173.7904646519507" />
+      <entry key="H2" value="208.19236954209555" />
+      <entry key="H4" value="245.547195391321" />
+      <entry key="D1" value="574.8951128683605" />
+      <entry key="W1" value="905.6053014754625" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -123,6 +141,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\duong\OneDrive\Desktop\MobileApp2" />
+      <recent name="C:\Users\duong\OneDrive\Desktop\MobileApp2\app" />
       <recent name="C:\Users\duong\OneDrive\Desktop\MobileApp2\app\(tabs)" />
     </key>
   </component>
@@ -141,7 +161,7 @@
       <option name="presentableId" value="Default" />
       <updated>1779360626694</updated>
       <workItem from="1779360627715" duration="8721000" />
-      <workItem from="1779787814739" duration="2892000" />
+      <workItem from="1779787814739" duration="14985000" />
     </task>
     <servers />
   </component>
