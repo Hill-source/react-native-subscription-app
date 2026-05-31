@@ -13,12 +13,14 @@ import ListHeading from "@/components/ListHeading";
 import UpcomingSubscriptionCard from "@/components/UpcomingSubscriptionCard";
 import SubscriptionCard from "@/components/SubscriptionCard";
 import React, {useState} from "react";
+import {useUser} from "@clerk/expo";
 
 const SafeAreaView = styled(RNSafeAreaView);
 
 
 
 export default function App() {
+    const {user} = useUser();
     const [expandedSubscriptionId, setExpandedSubscriptionId] = useState<string | null>(null);
 
     return (
@@ -28,7 +30,10 @@ export default function App() {
                         <>
                             <View className={"home-header"}>
                                 <View className={"home-user"}>
-                                    <Image source={images.avatar} className={"home-avatar"}/>
+                                    <Image
+                                        source={user?.imageUrl ? {uri: user.imageUrl} : images.avatar}
+                                        className={"home-avatar"}
+                                    />
                                     <Text className={"home-user-name"}>{HOME_USER.name}</Text>
                                 </View>
 
